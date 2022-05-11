@@ -22,6 +22,29 @@
     ></script>
 </head>
 <body>
+  <div class="menu">
+      <ion-icon name="close" class="menu-close"></ion-icon>
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="#portfolio" class="menu-link">Portfolio</a>
+        </li>
+        <li class="menu-item">
+          <a href="#partners" class="menu-link">Partners</a>
+        </li>
+        <li class="menu-item">
+          <a href="#team" class="menu-link">Team</a>
+        </li>
+        <li class="menu-item">
+          <a href="#blog" class="menu-link">Blog</a>
+        </li>
+        <li class="menu-item">
+          <a href="#contact" class="menu-link">Contact</a>
+        </li>
+        <li class="menu-item menu-phone">
+          Phone: <a href="tel:055951237851">+055 - 951 237 851</a>
+        </li>
+      </ul>
+    </div>
     <header class="header">
         <div class="container">
             <div class="header-nav">
@@ -29,15 +52,11 @@
                     <img src="./images/logo.png" alt="">
                 </a>
                 <div class="header-navright">
-                    <p>Phone: <b>
+                    <p class="header-phone">Phone: <b>
                         &ensp;+055-951 237 851 
                     </b></p>
-                   <a href="">
-                       <img src="./images/icon-search.png" alt="">
-                   </a> 
-                    <a href="">
-                        <img src="./images/icon-bars.png" alt="">
-                    </a>
+                     <img src="./images/icon-search.png" alt="">
+                    <img src="./images/icon-bars.png" alt="" class="menu-toggle">
                 </div>
             </div>
         </div>
@@ -51,65 +70,65 @@
           <a href="#" class="hero-link">Purchase Now</a>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
           <div class="container">
               <div class="portfolio-list">
                   <div class="portfolio-column">
                       
                       <div class="portfolio-item">
                           <img src="./images/img2.png" class="portfolio-img" alt="">
-                          <h3>Campaign of exhibition of architectural field</h3>
-                          <p>Photography</p>
+                          <h3 class="portfolio-title title second-font">Campaign of exhibition of architectural field</h3>
+                          <p class="portfolio-category text--small">Photography</p>
                       </div>
                       <div class="portfolio-item">
                           <img src="./images/img3.png" class="portfolio-img" alt="">
-                          <h3 class="portfolio-title">Campaign of exhibition of architectural field</h3>
-                          <p class="portfolio-category">Photography</p>
+                          <h3 class="portfolio-title title second-font">New minimal product campaign</h3>
+                          <p class="portfolio-category text--small">Brand</p>
                       </div>
                       <div class="portfolio-item">
                           <img src="./images/img4.png" class="portfolio-img" alt="">
-                          <h3>Campaign of exhibition of architectural field</h3>
-                          <p>Photography</p>
+                          <h3 class="portfolio-title title second-font">Product photography and promotion</h3>
+                          <p class="portfolio-category text--small">Brand</p>
                       </div>
                   </div>
                     <div class="portfolio-column">
 
                         <div class="portfolio-item">
                             <img src="./images/img5.png" class="portfolio-img" alt="">
-                            <h3>Campaign of exhibition of architectural field</h3>
-                            <p>Photography</p>
+                            <h3 class="portfolio-title title second-font">Incredible color cap-ture in</h3>
+                            <p class="portfolio-category text--small">Photography</p>
                         </div>
                         <div class="portfolio-item">
                             <img src="./images/img6.png" class="portfolio-img" alt="">
-                            <h3>Campaign of exhibition of architectural field</h3>
-                            <p>Photography</p>
+                            <h3 class="portfolio-title title second-font">Building promotion poster in the city</h3>
+                            <p class="portfolio-category text--small">Design</p>
                         </div>
                         <div class="portfolio-item">
                             <img src="./images/img7.png" class="portfolio-img"  alt="">
-                            <h3>Campaign of exhibition of architectural field</h3>
-                            <p>Photography</p>
+                            <h3 class="portfolio-title title second-font">Orange and red struc-ture exhibition</h3>
+                            <p class="portfolio-category text--small">Design</p>
                         </div>
                         <div class="portfolio-item">
                             <img src="./images/img8.png" class="portfolio-img" alt="">
-                            <h3>Campaign of exhibition of architectural field</h3>
-                            <p>Photography</p>
+                            <h3 class="portfolio-title title second-font">Amazing building mockup design</h3>
+                            <p class="portfolio-category text--small">Design</p>
                         </div>
                     </div>
                     <div class="portfolio-column">
                       <div class="portfolio-item">
                           <img src="./images/img9.png" class="portfolio-img" alt="">
-                          <h3>Campaign of exhibition of architectural field</h3>
-                          <p>Photography</p>
+                          <h3 class="portfolio-title title second-font">Advertising campaign mold</h3>
+                          <p class="portfolio-category text--small">Design</p>
                       </div>
                       <div class="portfolio-item">
                           <img src="./images/img10.png" class="portfolio-img" alt="">
-                          <h3>Campaign of exhibition of architectural field</h3>
-                          <p>Photography</p>
+                          <h3 class="portfolio-title title second-font">Mockup for hot drinks of free cola</h3>
+                          <p class="portfolio-category text--small">Mockup</p>
                       </div>
                       <div class="portfolio-item">
                           <img src="./images/img11.png" class="portfolio-img" alt="">
-                          <h3>Campaign of exhibition of architectural field</h3>
-                          <p>Photography</p>
+                          <h3 class="portfolio-title title second-font">Laptop mockup in PSD format</h3>
+                          <p class="portfolio-category text--small">Mockup</p>
                         </div>
                       </div>
                   </div>
@@ -118,7 +137,7 @@
 
           </div>
       </section>
-      <section class="partner">
+      <section class="partner" id="partners">
           <div class="container">
               <div class="partner-list">
                   <div class="partner-item">
@@ -150,7 +169,7 @@
               </div>
           </div>
       </section>
-      <section class="team">
+      <section class="team" id="team">
           
           <div class="container">
               <div class="team-introduce">
@@ -174,33 +193,153 @@
                 </div>
             </div>
       </section>
-      <section class="blog">
+      <section class="blog" id="blog">
           <div class="container">
               <div class="blog-header">
-                  <h2>Take a look at our services</h2>
-                  <p>integer eu metus at orci scelerisque rutrum. Vivamus condimentu
+                  <h2 class="blog-heading heading">Take a look at our services</h2>
+                  <p class="blog-desc text">integer eu metus at orci scelerisque rutrum. Vivamus condimentu
                       ipsum vitae iaculis cursus, turpis nist.
                   </p>
               </div>
               <div class="blog-list">
                   <div class="blog-item">
-                      <img src="./images/blog1.png" alt="">
-                      <h3>Illustration development basics for beginners</h3>
-                      <p>Design</p>
+                      <img class="blog-img" src="./images/blog1.png" alt="">
+                      <h3 class="blog-title title">Illustration development basics for beginners</h3>
+                      <p class="blog-category text--small">Design</p>
+                    </div>
                     <div class="blog-item">
-                      <img src="./images/blog2.png" alt="">
-                      <h3>Illustration development basics for beginners</h3>
-                      <p>Design</p>
+                      <img class="blog-img"  src="./images/blog2.png" alt="">
+                      <h3 class="blog-title title">Our best music list to listen to on spotify</h3>
+                      <p class="blog-category text--small">Music</p>
                   </div>
                   <div class="blog-item">
-                      <img src="./images/blog3.png" alt="">
-                      <h3>Illustration development basics for beginners</h3>
-                      <p>Design</p>
-                  </div>
+                      <img class="blog-img"  src="./images/blog3.png" alt="">
+                      <h3 class="blog-title title">Gallery design and compo-sition process</h3>
+                      <p class="blog-category text--small">Courses</p>
                   </div>
               </div>
           </div>
       </section>
+      <section class="contact" id="contact">
+          <div class="container contact-container">
+              <div class="contact-header">
+                  <h3 class="contact-heading heading">Contact us to Grow your Business</h3>
+                  <p class="contact-desc text">Integer eu metus at ord scelerisque rutrum. Vivamus condimen-tum, ipsum vitae iaculis cursus, turpis nisl ultricies massa.</p>
+              </div>
+               <form action="javascript:void(0);" class="contact-form">
+            <input
+              type="text"
+              class="contact-input contact-field"
+              placeholder="Antho_"
+              required
+            />
+            <input
+              type="email"
+              class="contact-input contact-field"
+              placeholder="E.g., a.octavian@gmail.com"
+              required
+            />
+            <textarea
+              class="contact-area contact-field"
+              placeholder="Your message"
+              required
+              minlength="50"
+            ></textarea>
+            <button type="submit" class="btn btn--secondary">
+              Send Message
+            </button>
+          </form>
+
+          </div>
+      </section>
         </main>
+         <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-main">
+            <div class="footer-column">
+              <a href="index.html" class="footer-logo"
+                ><img src="./images/logo-footer.png" alt=""
+              /></a>
+              <div class="footer-desc text">
+                Vivamus dapibus et purus quis mollis. Mauris tempus tortor vel
+                mi eleifend laoreet. Nulla laoreet sapien erat.
+              </div>
+              <div class="social">
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-dribbble"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading second-font">Usefull Links</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">About Us</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Contact us</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Terms of Services</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Plan & Precing</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Site Map</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading second-font">Contact Us</h3>
+              <ul class="footer-info">
+                <li>Phone Number 2: ( + 051 ) 958 23 78 51</li>
+                <li>
+                  Phone Number 2:
+                  <span class="footer-highlight">( + 051 ) 958 23 78 51</span>
+                </li>
+              </ul>
+              <ul class="footer-info">
+                <li>
+                  <a href="mailto:support@ocatavian.io"
+                    >Email: support@ocatavian.io</a
+                  >
+                </li>
+                <li>Fax: support@ocatavian.io</li>
+              </ul>
+              <ul class="footer-info">
+                <li>
+                  Address: Envato Pty Ltd 13/2 Permanent ST melbourne VLC 3000 -
+                  Australia
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-container">
+          <a href="#" class="footer-rocket">
+            <ion-icon name="rocket"></ion-icon>
+          </a>
+          <p>
+            Copyright © 2020 Octavian, Designed by <a href="#">TexTheme</a> All
+            Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+        <script src="./scripts/app.js"></script>
+
 </body>
 </html>

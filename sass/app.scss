@@ -1,6 +1,5 @@
 @import "variables";
-// @import "mixin";
-// @import "function";
+@import "mixin";
 @import "reset";
 @import "base";
 @import "header";
@@ -9,6 +8,6 @@
 @import "partner";
 @import "team";
 @import "blog";
-// @import "contact";
-// @import "footer";
-// @import "menu";
+@import "contact";
+@import "footer";
+@import "menu";
