@@ -6,7 +6,7 @@
         {
       "label": "Run sass",
       "type": "shell",
-      "command": "sass sass/app.scss css/app.css --watch"
+      "command": "sass Octavivan/sass/app.scss Octavivan/css/app.css --watch"
     }
     ]
 }
